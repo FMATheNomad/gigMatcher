@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.profile-section,
+.project-section,
+.score-section {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#match-score {
+  font-size: 1.5rem;
+  color: #28a745; /* Warna hijau untuk skor tinggi */
+}
+
+#match-score.low {
+  color: #dc3545; /* Warna merah untuk skor rendah */
+}
+
+.text-center {
+  text-align: center;
+}
